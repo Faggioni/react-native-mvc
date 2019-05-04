@@ -2,13 +2,39 @@
     "name": "react-native-mvc",
     "version": "0.0.1",
     "description": "MVC Pattern for React Native",
-    "main": "index.js",
+    "main": "react-native-mvc",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
         "mcv"
     ],
-    "author": "Faggioni",
-    "license": "ISC"
+    "homepage": "https://github.com/Faggioni/react-native-mvc",
+    "author": {
+        "name": "Miguel Faggioni",
+        "email": "miguel@hqrentalsoftware.com"
+    },
+    "contributors": [ "faggioni", "faggionihq" ],
+    "license": "ISC",
+
+    "man": {
+        "name": "react-native-mvc",
+        "version": "0.0.1",
+        "description": "MVC Pattern for React Native",
+        "main": "man.js",
+        "man": "./man/doc.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Faggioni/react-native-mvc"
+    },
+    "dependencies": {
+        "axios": "0.18.0",
+        "moment": "2.24.0",
+        "redux": "4.0.1",
+        "react-redux": "7.0.3",
+        "react-native-router-flux": "4.0.6",
+        "react-native":"0.59.5",
+        "react": "16.8.6"
+    }
 }

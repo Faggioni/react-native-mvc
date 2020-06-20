@@ -12,11 +12,12 @@
     "homepage": "https://github.com/Faggioni/react-native-mvc",
     "author": {
         "name": "Miguel Faggioni",
-        "email": "miguel@hqrentalsoftware.com"
+        "email": "miguelfaggioni@gmail.com"
     },
-    "contributors": [ "faggioni", "faggionihq" ],
+    "contributors": [
+        "faggioni"
+    ],
     "license": "ISC",
-
     "man": {
         "name": "react-native-mvc",
         "version": "0.0.1",
@@ -34,7 +35,10 @@
         "redux": "4.0.1",
         "react-redux": "7.0.3",
         "react-native-router-flux": "4.0.6",
-        "react-native":"0.59.5",
+        "react-native": "0.59.5",
         "react": "16.8.6"
+    },
+    "devDependencies": {
+        "prettier": "2.0.5"
     }
 }
